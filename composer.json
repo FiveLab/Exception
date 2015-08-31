@@ -1,0 +1,35 @@
+{
+    "name": "fivelab/exception",
+    "description": "Adds another exceptions to your system",
+    "keywords": [ "exception" ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Zhuk",
+            "email": "v.zhuk@fivelab.org"
+        },
+
+        {
+            "name": "FiveLab Team",
+            "email": "dev@fivelab.org",
+            "homepage": "http://fivelab.org"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4"
+    },
+
+    "require-dev": {
+        "symfony/validator": "~2.3"
+    },
+
+    "suggest": {
+        "symfony/validator": "For ViolationListException"
+    },
+
+    "autoload": {
+        "psr-4": { "FiveLab\\Component\\Exception\\": "src/" }
+    }
+}
